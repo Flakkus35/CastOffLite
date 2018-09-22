@@ -1,0 +1,67 @@
+.link-block-wrapper {
+	border: 5px solid #313179;
+	margin-top: 10px;
+	text-align: center;
+	border-radius: 5px;
+	/*background: #dbdebc;*/
+}
+
+.content-wrap {
+	margin: 10px;
+	height: 12rem;
+	margin-top: 17px;
+	/*background: #f2f5d0;*/
+}
+
+.link-x {
+	float: right;
+	background: none;
+	border: none;
+	color: grey;
+}
+
+.link-x:hover {
+	cursor: pointer;
+	background: #ff6161;
+	color: white;
+	border: 3px inset #ff6161;
+	border-radius: 5px;
+}
+
+.url-block {
+	border: 5px ridge #313179;
+	width: 70%;
+	margin: auto;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.url-block:hover {
+	cursor: pointer;
+	background: #7474a9;
+	color: white;
+	text-decoration: none;
+	border: 7px ridge #313179;
+	box-shadow: 5px 8px #b3b0bf;
+}
+
+.url-block:hover .img-div {
+	opacity: .5;
+}
+
+.url-block:hover .link-div {
+	color: white;
+}
+
+.url-wrapper:hover {
+	text-decoration: none;
+}
+
+.drag-block {
+	height: 2rem;
+	background: #313179;
+}
+
+.drag-block:hover {
+	cursor: move;
+}

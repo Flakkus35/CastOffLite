@@ -1,0 +1,11 @@
+.view-nav-wrapper {
+  border: 1px solid green;
+}
+
+#dropdownAnchorLink:hover {
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  cursor: pointer;
+}
